@@ -1,5 +1,5 @@
 # immoral fruit
-bad apple on the TI84+ CE. it runs with a whopping 32x12 resolution at 8fps. the encoder and a sample decoder are written in python and can be found in the `encoder` directory. here's a preview:
+bad apple on the TI84+ CE. it runs with a whopping 32x24 resolution at 8fps. the encoder and a sample decoder are written in python and can be found in the `encoder` directory. here's a preview:
 
 <p align="center">
     <img src="./capture.gif" alt="helpful alt text">
