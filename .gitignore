@@ -1,0 +1,6 @@
+obj/
+bin/
+encoder/bad_apple.mp4
+.clangd
+__pycache__
+data.c
