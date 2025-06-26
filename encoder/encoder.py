@@ -12,9 +12,9 @@ except ImportError:
 
 print(f"starting (opencv version {cv2.__version__})")
 
-FPS = 30
+FPS = 8
 FRAME_MS = 1000 // FPS
-PIXEL_SIZE = 8
+PIXEL_SIZE = 10
 WIDTH = 320 // PIXEL_SIZE
 HEIGHT = 240 // PIXEL_SIZE
 MAX_COMPRESSED_FRAME_SIZE = WIDTH * HEIGHT // 2 # assume worst-case compression of 50%
