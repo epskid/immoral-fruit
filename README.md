@@ -3,11 +3,12 @@ bad apple on the TI84+ CE. it runs with a whopping 32x12 resolution at 8fps. the
 
 <p align="center">
     <img src="./capture.gif" alt="helpful alt text">
+    <i>recorded with the [CEmu emulator](https://github.com/CE-Programming/CEmu)</i>
 </p>
 
 ## faq
 ### why is it so bad?
-nothing is bad when it's a learning experience.
+nothing is bad when it's a learning experience. also the emulator was behaving funny -- those wierd visual glitches aren't there when ran on actual hardware.
 
 ## compilation
 supply `bad_apple.mp4` into the encoder directory, and run `encoder.py`. copy `data.c` into the `src` directory, and then use the [CEDev toolchain](https://github.com/CE-Programming/toolchain) to compile.
