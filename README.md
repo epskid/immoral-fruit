@@ -3,7 +3,8 @@ bad apple on the TI84+ CE. it runs with a whopping 32x12 resolution at 8fps. the
 
 <p align="center">
     <img src="./capture.gif" alt="helpful alt text">
-    <i>recorded with the [CEmu emulator](https://github.com/CE-Programming/CEmu)</i>
+    <br />
+    <i>recorded with the <a href="https://github.com/CE-Programming/CEmu">CEmu emulator</a></i>
 </p>
 
 ## faq
