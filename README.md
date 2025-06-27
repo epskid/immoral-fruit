@@ -12,4 +12,8 @@ bad apple on the TI84+ CE. it runs with a whopping 32x24 resolution at 8fps. the
 nothing is bad when it's a learning experience (i suck at embedded programming).
 
 ## compilation
-supply `bad_apple.mp4` into the encoder directory, and run `encoder.py`. copy `data.c` into the `src` directory, and then use the [CEDev toolchain](https://github.com/CE-Programming/toolchain) to compile.
+get the file you want to encode (such as bad apple) then run
+```shell
+./encode.sh <your file here>
+```
+then use the [CEDev toolchain](https://github.com/CE-Programming/toolchain) to compile.
