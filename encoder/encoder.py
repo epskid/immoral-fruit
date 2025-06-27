@@ -3,6 +3,7 @@
 import ctypes
 import decoder
 import multiprocessing
+import sys
 
 try:
     import cv2
@@ -22,7 +23,10 @@ W_INDICATOR_BIT = 7
 
 frames = []
 
-cap = cv2.VideoCapture('bad_apple.mp4')
+if len(sys.argv) != 2:
+    print("please supply one file to encode")
+    quit()
+cap = cv2.VideoCapture(sys.argv[1])
 original_fps = cap.get(cv2.CAP_PROP_FPS)
 original_frame_count = cap.get(cv2.CAP_PROP_FRAME_COUNT) - 1
 print(f"original footage encoded at {int(original_fps)} fps with {int(original_frame_count)} frames")
@@ -102,5 +106,3 @@ print()
 
 if input("play a preview? [y/n] ") == "y":
     decoder.play(processed_frames[:], FPS, WIDTH, HEIGHT, W_INDICATOR_BIT)
-
-print("done! output file is at `data.c`")

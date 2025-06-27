@@ -5,7 +5,7 @@
 #include <sys/timers.h>
 
 void render_frame(const uint8_t *frame, size_t len) {
-  int x = 0;
+  unsigned int x = 0;
   uint8_t y = 0;
 
   for (size_t idx = 0; idx < len; idx++) {

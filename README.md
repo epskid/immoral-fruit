@@ -9,7 +9,7 @@ bad apple on the TI84+ CE. it runs with a whopping 32x24 resolution at 8fps. the
 
 ## faq
 ### why is it so bad?
-nothing is bad when it's a learning experience (i suck at embedded programming). a more apt excuse is the emulator was behaving strangely; the visual glitches at the bottom are not present on actual hardware.
+nothing is bad when it's a learning experience (i suck at embedded programming).
 
 ## compilation
 supply `bad_apple.mp4` into the encoder directory, and run `encoder.py`. copy `data.c` into the `src` directory, and then use the [CEDev toolchain](https://github.com/CE-Programming/toolchain) to compile.

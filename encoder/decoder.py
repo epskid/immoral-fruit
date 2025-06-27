@@ -2,10 +2,13 @@ import time
 import itertools
 
 def play(data, fps, width, height, bit):
-    for frame in data:
-        print("\x1b[2J\x1b[H")
-        show_frame(itertools.takewhile(lambda x: x != 0, frame), width, height, bit)
-        time.sleep(1 / fps)
+    try:
+        for frame in data:
+            print("\x1b[2J\x1b[H")
+            show_frame(itertools.takewhile(lambda x: x != 0, frame), width, height, bit)
+            time.sleep(1 / fps)
+    except KeyboardInterrupt:
+        print("interrupted, exiting...")
 
 def show_frame(frame, width, height, bit):
     expanded = []
